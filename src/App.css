@@ -6,12 +6,12 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: teal;
+  background-color: #008080;
 }
 
 .card {
-  height: 400px;
-  width: 250px;
+  height: 500px;
+  width: 300px;
   background-color: whitesmoke;
   border-radius: 15px;
   display: flex;
@@ -25,4 +25,41 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+span {
+  font-weight: 700;
+  color: #16770e;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.desc {
+  text-align: center;
+  color: #555;
+  font-weight: 300;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 5px;
+  width: 60%;
+}
+
+.iconcard {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cce6e6;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconcard > img {
+  width: 100%;
 }
