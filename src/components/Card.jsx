@@ -1,19 +1,10 @@
-import ProfileImg from './ProfileImg';
-import Title from './Title';
-import Role from './Role';
-import Description from './Description';
-import SocialLinks from './SocialLinks';
-
-function Card () {
+function Card (props) {
     return (
-        <div className="card">
-            <ProfileImg />
-            <Title />
-            <Role />
-            <Description />
-            <SocialLinks />
+        <div>
+            <h1>{props.name}</h1>
+            <p>{props.role}</p>
+            <p>{props.desc}</p>
         </div>
-    );
+    )
 }
-
-export default Card;
+ export default Card;

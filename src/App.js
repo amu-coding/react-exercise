@@ -3,7 +3,19 @@ import Card from './components/Card';
 
 function App() {
   return (
-    <Card />
+    <div>
+      <Card 
+        name="khalid"
+        role="IT admin"
+        desc="at the kabul university"
+      />
+      <Card 
+        name="ali"
+        role="staff"
+        desc="at the herat university"
+      />
+    </div>
+    
   );
 }
 
